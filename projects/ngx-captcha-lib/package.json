@@ -1,10 +1,10 @@
 {
-  "name": "ngx-captcha",
-  "version": "8.0.1",
+  "name": "@niteshp/ngx-captcha",
+  "version": "8.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Enngage/ngx-captcha"
+    "url": "https://github.com/niteshpurohit/ngx-captcha"
   },
   "author": "richard sustek",
   "description": "Dynamic captcha (Google reCaptcha) implementation for Angular",
@@ -27,8 +27,11 @@
     "prepublishOnly": "npm run prevent-publish",
     "prevent-publish": "node prevent-publish"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
-    "@angular/common": "^9.0.0",
-    "@angular/core": "^9.0.0"
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0"
   }
 }
